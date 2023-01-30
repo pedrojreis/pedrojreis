@@ -16,7 +16,7 @@ jobs:
         uses: Platane/snk@v2
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: snek.svg
+          outputs: snek.svg
 
       - name: Commit 📌
         uses: EndBug/add-and-commit@v9
