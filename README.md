@@ -1,5 +1,5 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="snek.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="snek-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="snek.svg" />
   <img alt="github-snake" src="snek.svg" />
 </picture>
