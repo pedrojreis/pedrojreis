@@ -7,6 +7,7 @@ on:
 jobs:
   snake:
     runs-on: ubuntu-latest
+    name: Snek 🐍
     steps:
 
       - name: Checkout 🛎️
@@ -22,4 +23,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           default_author: github_actions
-          message: 'Updated Snek 🐍'
+          message: '🐍 Updated Snek'
