@@ -1,7 +1,7 @@
 name: 🐍 Snek
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 16 * * *"}]
+  schedule: [{ cron: "0 16 * * *" }]
   # (optional) Run workflow manually
   workflow_dispatch:
 jobs:
@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Snek 🐍
     steps:
-
       - name: Checkout 🛎️
         uses: actions/checkout@v2
 
@@ -25,4 +24,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           default_author: github_actions
-          message: '🐍 Updated Snek'
+          message: "🐍 Updated Snek"
