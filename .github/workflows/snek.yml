@@ -11,10 +11,10 @@ jobs:
     name: Snek 🐍
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Generate Snake 🐍
-        uses: Platane/snk@8b7b3e6acef87188f941ed83b47f9da0401b4d17 # v3.2.0
+        uses: Platane/snk@a69d1dbca7a94c2ef0edf10dcd9e19982d74dd39 # v3.3.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
