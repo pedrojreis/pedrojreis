@@ -19,4 +19,4 @@
 **Editors** | [![Visual Studio](https://img.shields.io/static/v1?label=&message=Visual%20Studio&color=5C2D91&logo=visualstudio&logoColor=FFFFFF&)](https://www.vim.org/) [![VS Code](https://img.shields.io/static/v1?label=&message=VS%20Code&color=9013FE&logo=visualstudiocode&logoColor=FFFFFF)](https://code.visualstudio.com/) [![Nano](https://img.shields.io/static/v1?label=&message=Nano&color=4A90E2&logo=nano&logoColor=FFFFFF)](https://www.nano-editor.org/)
 
 
-![Metrics](/metrics.svg)
+<!-- ![Metrics](/metrics.svg) -->
