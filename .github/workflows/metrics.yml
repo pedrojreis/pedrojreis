@@ -2,7 +2,7 @@ name: 📊 Metrics
 on:
   # Schedule daily updates
   # Everyday at 20:00 UTC
-  schedule: [{ cron: "0 20 * * *" }]
+  # schedule: [{ cron: "0 20 * * *" }]
   # (optional) Run workflow manually
   workflow_dispatch:
 jobs:
